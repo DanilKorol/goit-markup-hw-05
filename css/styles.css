@@ -369,6 +369,14 @@ img {
         margin-bottom: 0;
 }
 
+.link-footer-contacts {
+        transition: color var(--animation);
+}
+
+.link-footer-contacts:hover,
+.link-footer-contacts:focus {
+        color: var(--white-text-cl);
+}
 
 .link-location {
          color: var(--white-text-cl);
